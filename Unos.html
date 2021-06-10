@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Franceinfo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styleunos.css">
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="form-validation.js"></script> 
+</head>
+<body>
+    
+    <header id="navigacija">
+        <img src="img/franceinfo.PNG" id="franceinfoslika">
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="kategorija.php?id=kultura">Kultura</a>
+            <a href="kategorija.php?id=drama">Drama</a>
+            <a href="unos.html">Unesi vijest</a>
+            <a href="prijava.php">Administracija</a>
+            <a href="Korisnikunos.html">Registracija</a>
+        </nav>
+    </header>
+    <div class="kutija">
+        <form action="skriptaunos.php" class="forma" method="POST" enctype="multipart/form-data" name="unos">
+            <div>
+            <label for="naslov">Naslov</label>
+            <div>
+            <input type="text" name="naslov">
+            </div>
+            </div>
+            <div>
+            <label for="o">Kratki sadržaj vijesti</label>
+            <div>
+            <textarea name="o" id="" cols="90" rows="10"></textarea>
+            </div>
+            </div>
+            <div>
+            <label for="sadrzaj">Sadržaj</label>
+            <div>
+            <textarea name="sadrzaj" id="" cols="90" rows="10"></textarea>
+            </div>
+            </div>
+            <div>
+            <label for="slika">Slika: </label>
+            <div>
+            <input type="file" accept="image/jpeg,image/gif" name="slika"/>
+            </div>
+            </div>
+            <div>
+            <label for="kategorija">Kategorija vijesti</label>
+            <div>
+            <select name="kategorija">
+
+            <option value="kultura">Kultura</option>
+            <option value="drama">Drama</option>
+
+            </select>
+            </div>
+            </div>
+            <div>
+            <label>Spremiti u arhivu:
+            <div>
+            <input type="checkbox" name="arhiva">
+            </div>
+            </label>
+            </div>
+            <div>
+            <button type="reset" value="Poništi">Poništi</button>
+            <button type="submit" value="Prihvati">Prihvati</button>
+            </div>
+            </form>
+ 
+
+    </div>
+<footer>
+    <p>france.tv</p>
+</footer>
+</body>
+</html>

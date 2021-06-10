@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.kutija{
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#franceinfoslika{
+    margin-left:15%;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    padding:20px;
+    padding-left: 180px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#pocetna{
+    width:100%;
+}
+.naslov{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.naslov p{
+    color:#ccc;
+    text-align: center;
+}
+.kutija{
+    text-align: left;
+}
+#podnaslov{
+    text-align: left;
+}
+.izbrisi{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(242,242,242);
+    width:100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color:gray;
+    text-align: right;
+}

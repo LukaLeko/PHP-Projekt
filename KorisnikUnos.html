@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="form-validation-user.js"></script> 
+    <link rel="stylesheet" type="text/css" href="stylearticleunos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="navigacija">
+        <img src="img/franceinfo.PNG" id="franceinfoslika">
+        <nav>
+        <a href="index.php">Home</a>
+            <a href="kategorija.php?id=kultura">Kultura</a>
+            <a href="kategorija.php?id=drama">Drama</a>
+            <a href="unos.html">Unesi vijest</a>
+            <a href="prijava.php">Administracija</a>
+            <a href="Korisnikunos.html">Registracija</a>
+        </nav>
+    </header>
+
+<div class="kutija">
+    <form action="registracija.php" method="POST" name="registracija">
+
+    <label for="ime">Ime</label><br>
+    <input type="text" name="ime" id="ime"/>
+
+    <br><label for="prezime">Prezime</label><br>
+    <input type="text" name="prezime" id="prezime"/>
+
+    <br><label for="username">Korisničko ime</label><br>
+    <input type="text" name="username" id="username"/>
+
+    <br><label for="pass">Sifra</label><br>
+    <input type="password" name="pass" id="pass"/>
+
+    <br><label for="pass1">Ponovite sifru</label><br>
+    <input type="password" name="pass1" id="pass1"/>
+
+    <button type="submit" id="gumb">Prijava</button>
+
+</form>
+</div>
+
+<footer>
+    <p>france.tv</p>
+</footer>
+</body>
+</html>

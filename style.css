@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.kutija{
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#franceinfoslika{
+    margin-left:15%;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    padding:20px;
+    padding-left: 180px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.GornjiRed{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+.Gore{
+    float:left;
+    width:17%;
+    text-align:left;
+    padding-right:40px;
+}
+.Gore img{
+    width: 13vw;
+    height: 9vw;
+    object-fit: cover;
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.DonjiRed{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Dolje{
+    float:left;
+    width:24%;
+    text-align:left;
+    padding-right:10px;
+}
+.Dolje img{
+    width: 16vw;
+    height: 9vw;
+    object-fit: cover;
+}
+footer{
+    background-color:rgb(242,242,242);
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color:gray;
+    text-align: right;
+    position:fixed;
+    bottom:0;
+}
+article a{
+    text-decoration: none;
+    color:black;
+}
